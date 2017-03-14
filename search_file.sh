@@ -1,6 +1,6 @@
 #!/bin/bash
 #Filename
-#Description
+#Description Bash script to find a file in a specific path.
 
 read -p "enter filename to be searched"
 filename=$REPLY
