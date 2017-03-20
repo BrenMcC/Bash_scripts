@@ -1,5 +1,5 @@
 #Connection script to the local postgres server.
-#Creates new database and a sample table called firm
+#Asks for user input and creates a new database from that and a sample table called firm
 # also prints to the terminal the list of databases. #!bin/bash
 DATABASE=postgres
 USERNAME=postgres
