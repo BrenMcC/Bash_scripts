@@ -1,4 +1,5 @@
 #!/bin/bash
+#Code to ping a host 3 times and verify if host is reachable or unreachable.
 HOST="google.ie"
 echo "$HOST"
 ping -c 3 $HOST
