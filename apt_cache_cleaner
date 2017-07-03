@@ -1,0 +1,28 @@
+
+# This script cleans the apt-cache.
+
+
+#!/bin/bash
+
+sudo du -sh /var/cache/apt/archives
+
+
+ read -p "type y if you want to clean cache" decision
+
+
+
+ if [ $decision ==  'y' ];
+ then
+   sudo apt-get clean
+
+
+
+ echo "apt-cache is clean"
+
+
+ else
+
+   echo "cache not clean"
+
+
+ fi
